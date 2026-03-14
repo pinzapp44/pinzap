@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pinzap — Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+         max-width: 800px; margin: 0 auto; padding: 40px 20px;
+         color: #1a1a1a; line-height: 1.7; }
+  h1   { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+  h2   { font-size: 18px; font-weight: 600; margin-top: 36px; margin-bottom: 8px;
+         border-bottom: 1px solid #eee; padding-bottom: 6px; }
+  p, li { font-size: 15px; color: #333; }
+  .date { color: #888; font-size: 14px; margin-bottom: 32px; }
+  ul   { padding-left: 20px; }
+  li   { margin-bottom: 6px; }
+  .highlight { background: #f0f7ff; border-left: 3px solid #007AFF;
+               padding: 12px 16px; border-radius: 4px; margin: 16px 0; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="date">Last updated: March 14, 2026</p>
+
+<div class="highlight">
+  <strong>Summary:</strong> Pinzap stores all your data locally on your device.
+  We do not collect, transmit, or share any personal information.
+</div>
+
+<h2>1. Introduction</h2>
+<p>Pinzap ("we", "our", or "the app") is a location-based automation app that
+alerts you when you enter or exit zones you define. This Privacy Policy explains
+how we handle information when you use our app.</p>
+
+<h2>2. Information We Collect</h2>
+<p><strong>We do not collect any personal information.</strong> Specifically:</p>
+<ul>
+  <li>We do not collect your name, email, or any account information</li>
+  <li>We do not collect or transmit your location data to any server</li>
+  <li>We do not use analytics or crash reporting services</li>
+  <li>We do not use advertising SDKs or tracking</li>
+  <li>We do not have a backend server</li>
+</ul>
+
+<h2>3. Location Data</h2>
+<p>Pinzap requires access to your device's location to function. Here is how
+location data is used:</p>
+<ul>
+  <li><strong>On-device only:</strong> Your location is processed entirely on
+      your device and is never sent to any external server</li>
+  <li><strong>Background location:</strong> The app accesses location in the
+      background to detect when you enter or exit zones you have defined</li>
+  <li><strong>Zone coordinates:</strong> The locations of your saved zones are
+      stored locally in your device's storage using AsyncStorage</li>
+  <li><strong>No logging:</strong> We do not log, store, or analyse your
+      location history</li>
+</ul>
+
+<h2>4. Data Storage</h2>
+<p>All app data — including your saved zones, settings, and preferences — is
+stored locally on your device using Android's AsyncStorage. This data:</p>
+<ul>
+  <li>Never leaves your device</li>
+  <li>Is deleted when you uninstall the app</li>
+  <li>Is not backed up to any cloud service by Pinzap</li>
+</ul>
+
+<h2>5. Permissions Used</h2>
+<ul>
+  <li><strong>ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION:</strong>
+      To show your position on the map and detect nearby zones</li>
+  <li><strong>ACCESS_BACKGROUND_LOCATION:</strong>
+      To detect zones when the app is in the background or closed</li>
+  <li><strong>POST_NOTIFICATIONS:</strong>
+      To send zone entry/exit alerts</li>
+  <li><strong>FOREGROUND_SERVICE:</strong>
+      To keep the GPS active in the background</li>
+  <li><strong>VIBRATE / WAKE_LOCK:</strong>
+      To trigger alarm vibration when you arrive at a zone</li>
+  <li><strong>INTERNET:</strong>
+      To load map tiles from OpenStreetMap (no personal data sent)</li>
+</ul>
+
+<h2>6. Third-Party Services</h2>
+<p>Pinzap uses the following third-party services solely for map display:</p>
+<ul>
+  <li><strong>OpenStreetMap</strong> (tile.openstreetmap.org) — map tile images.
+      Only your approximate viewport coordinates are sent to load map tiles,
+      which is standard behaviour for all mapping apps. See
+      <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">
+      OpenStreetMap's Privacy Policy</a>.</li>
+  <li><strong>Nominatim</strong> (nominatim.openstreetmap.org) — location search.
+      Your search query text is sent when you search for a location.</li>
+</ul>
+<p>No other third-party services, analytics, or advertising networks are used.</p>
+
+<h2>7. Children's Privacy</h2>
+<p>Pinzap is not directed at children under the age of 13. We do not knowingly
+collect any information from children.</p>
+
+<h2>8. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. We will notify you of
+any changes by updating the "Last updated" date at the top of this page.</p>
+
+<h2>9. Contact</h2>
+<p>If you have any questions about this Privacy Policy, please contact us at:<br>
+<strong>ravindranathdevineni@gmail.com</strong></p>
+
+</body>
+</html>
